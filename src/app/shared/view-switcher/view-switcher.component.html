@@ -1,0 +1,7 @@
+
+<span (click)="swithView()">
+  <mat-icon *ngIf="viewState; else unset">menu</mat-icon>
+  <ng-template #unset>
+    <mat-icon>view_comfy</mat-icon>
+  </ng-template>
+</span>
