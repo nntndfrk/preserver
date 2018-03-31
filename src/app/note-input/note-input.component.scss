@@ -1,0 +1,21 @@
+.task-input {
+  padding: 20px 15%;
+}
+
+.input-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-block > * {
+  width: 100%;
+}
+
+.button-block {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.button-block > * {
+  width: 10%;
+}
